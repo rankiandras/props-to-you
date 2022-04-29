@@ -25,7 +25,7 @@ class Footer2 extends Component {
     return (
       <div /* id='footer' */ className={this.state.key1}
       onClick={
-        () => this.setState({ key1: "invisible"})}>{this.props.date}</div>
+        () => this.setState({ key1: "footer__hidden"})}>{this.props.date}</div>
     )
   }
 }

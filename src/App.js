@@ -3,8 +3,8 @@ import './App.css';
 import Header from'./components/Header'
 import IntroductionCard from './components/IntroductionCard';
 /* import Footer from './components/Footer'; */
-import Footer2 from './components/Footer2';
-/* import Footer3 from './components/Footer3'; */
+// import Footer2 from './components/Footer2';
+import Footer3 from './components/Footer2';
 
 function App() {
   const logoName = "This is the new logo name"
@@ -35,8 +35,8 @@ function App() {
       <IntroductionCard name={name} school={school} age={age} hobbyList={hobbyList} hairColor={hairColor} favoriteDrink={favoriteDrink} numberOfPets={numberOfPets}/>
       <IntroductionCard name={name2} school={school2} age={age2} hobbyList={hobbyList2} hairColor={hairColor2} favoriteDrink={favoriteDrink2} numberOfPets={numberOfPets2}/>
       {/* <Footer date={date} /> */}
-      <Footer2 date={date}/>
-      {/* <Footer3 date={date}/> */}
+      {/* <Footer2 date={date}/> */}
+      <Footer3 date={date}/>
     </div>
   );
 }
